@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	display: flex;
+}
+
+.column{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.column h2{
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;
+	transition: background 0.3s ease 0s;
+	text-transform: uppercase;
+}
+
+.column h2:hover{
+	background: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.column button{
+	outline: none;
+	border: none;
+	background: transparent;
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	transition: background 0.3s ease 0s;
+}
+
+.column button:hover{
+	background: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
